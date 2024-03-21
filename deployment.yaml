@@ -17,5 +17,3 @@ spec:
         image: dhanalucky2308/hello-world:1
         ports:
         - containerPort: 5000
-		
-
