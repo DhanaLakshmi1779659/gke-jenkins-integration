@@ -1,7 +1,7 @@
 pipeline{
  agent any
  environment{
-  PROJECT_ID='dhana'
+  PROJECT_ID='dhana-416914'
   CLUSTER_NAME='cluster-1'
   CREDENTIAL_ID='credentialId'
   LOCATION='us-central1-c'
