@@ -1,1 +1,6 @@
+winrm quickconfig
+winrm set winrm/config/service/Auth '@{Basic="true"}'
+winrm set winrm/config/service '@{AllowUnencrypted="true"}'
+winrm set winrm/config/winrs '@{MaxMemoryPerShellMB="512"}'
+
 winrm create winrm/config/listener?Address=*+Transport=HTTP
