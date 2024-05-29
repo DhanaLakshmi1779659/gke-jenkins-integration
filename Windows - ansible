@@ -1,0 +1,1 @@
+winrm create winrm/config/listener?Address=*+Transport=HTTP
